@@ -1,5 +1,5 @@
 {
-  "name": "order-service",
+  "name": "inventory-service",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,9 +12,7 @@
   "type": "commonjs",
   "dependencies": {
     "@grpc/grpc-js": "^1.14.5",
-    "@grpc/proto-loader": "^0.8.1",
-    "@types/node": "^26.6.4",
-    "kafkajs": "^2.2.4"
+    "@grpc/proto-loader": "^0.8.1"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",
